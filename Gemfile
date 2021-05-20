@@ -25,6 +25,8 @@ gem 'builder', '~> 3.2.4'
 #
 gem 'rexml'
 
+gem 'devise'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

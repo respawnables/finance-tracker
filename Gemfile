@@ -25,7 +25,9 @@ gem 'builder', '~> 3.2.4'
 #
 gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
+gem 'iex-ruby-client'
 gem 'rexml'
+
 
 
 # Use Active Storage variant

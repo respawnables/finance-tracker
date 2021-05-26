@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :user_stocks, only: [:create]
+  resources :user_stocks, only: %i[create destroy]
   devise_for :users
   root 'home#index'
   get 'my_portfolio', to: 'users#my_portfolio'
